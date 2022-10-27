@@ -1,0 +1,13 @@
+Tigrovi;Nindze;prviPobedio;
+Tigrovi;Pobednici;neodigrana;
+Vukovi;Sokoli 1;drugiPobedio;
+Nindze;Pobednici;neodigrana;
+Vukovi;Sokoli 1;nereseno;
+Orlovi 1;Sokoli 2;prviPobedio;
+Pobednici;Orlovi 1;neodigrana;
+Vukovi;Pobednici;prviPobedio;
+Tigrovi;Pobednici;prviPobedio;
+Nindze 1;Sokoli 2;nereseno;
+Vetrovi;Jebivetrovi;neodigrana;
+Vetrovi;Palalici;prviPobedio;
+Jebivetrovi;Palalici;drugiPobedio;

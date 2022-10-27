@@ -1,0 +1,10 @@
+Orlovi;Kraljevo;9;
+Pobednici;Leskovac;7;
+Sokoli;Sabac;7;
+Nindze;Leskovac;9;
+Vukovi;Subotica;6;
+Sokoli 1;Zrenjanin;6;
+Orlovi 1;Pancevo;8;
+Sokoli 2;Novi Pazar;9;
+Tigrovi;Zrenjanin;6;
+Nindze 1;Sabac;9;
