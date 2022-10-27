@@ -7,7 +7,5 @@ public class S078_PrviProgram {
 		System.out.println("Zdravo svete!");
 		System.out.println("Jugoslav Jeftenic");
 		System.out.println("0652516805");
-
 	}
-
 }
