@@ -51,6 +51,14 @@ class Zaposleni {
 public class S062_Z2_Zaposleni {
 
 	public static void main(String[] args) {
+<<<<<<< HEAD
+=======
+
+		/*
+		 * Potom testirati klasu kreiranjem tri objekta u okviru glavnog programa,
+		 * za koje izraèunavamo platu i potom prikazujemo podatke o zaposlenima i njihovim platama
+		 */
+>>>>>>> branch 'master' of https://github.com/jugoslavjeftenic/brains.git
 		
 		int brojRadnihDana = 30;
 		

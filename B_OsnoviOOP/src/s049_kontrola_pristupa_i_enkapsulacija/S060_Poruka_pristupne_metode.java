@@ -2,6 +2,22 @@ package s049_kontrola_pristupa_i_enkapsulacija;
 
 class PorukaGetSet {
 
+<<<<<<< HEAD
+=======
+	/*
+	 *  *-------------------*
+	 *  |Poruka             |
+	 *  *-------------------*
+	 *  |-tekst:String      |
+	 *  *-------------------*
+	 *  |Poruka:            |
+	 *  |+tekst:String      |
+	 *  |+setTekst:void     |
+	 *  |+prikaziPoruku:void|
+	 *  *-------------------*
+	 */
+
+>>>>>>> branch 'master' of https://github.com/jugoslavjeftenic/brains.git
 	private String tekst;
 	
 	public String getTekst() {

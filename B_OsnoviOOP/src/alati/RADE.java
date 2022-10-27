@@ -135,12 +135,15 @@ public class RADE {
 		return boja[mrRobot(0, boja.length)];
 	}
 	
+<<<<<<< HEAD
 	public static String generisiTim() {
 		String[] tim = {"Sokoli", "Orlovi", "Vrabci", "Tigrovi", "Vukovi", "Gavrani",
 				"Pobednici", "Bednici", "Lavovi", "Alkoholicari", "Nindze"};
 		return tim[mrRobot(0, tim.length)];
 	}
 	
+=======
+>>>>>>> branch 'master' of https://github.com/jugoslavjeftenic/brains.git
 	public static int mrRobot(int min, int max) {
 		return (int) ((Math.random() * (max - min)) + min);
 	}

@@ -2,6 +2,21 @@ package s111_polimorfizam_oblik;
 
 public class Krug extends Oblik {
 
+<<<<<<< HEAD
+=======
+	/*
+	 * Realizovati klasu Oblik sa atributima boja (String), tip (String), brojStrana
+	 * (int), standardnim konstruktorom i konstruktorom koji postavlja inicijalne
+	 * vrednosti, kao i metodama za promenu boje oblika i štampanje podataka o
+	 * obliku. • Realizovati klase Kvadrat (dodatni atribut duzinaStranice tipa
+	 * double) i Krug (dodatni atribut poluprecnik tipa double) koje nasleðuju klasu
+	 * Oblik i implementiraju metode za raèunanje površine i obima.
+	 * 
+	 * • Klase testirati kreiranjem više objekata u glavnom programu i pozivanjem metoda za
+	 * raèunanje površine i obima i štampu podataka.
+	 */
+	
+>>>>>>> branch 'master' of https://github.com/jugoslavjeftenic/brains.git
 	private double poluprecnik;
 	
 	public Krug() {}

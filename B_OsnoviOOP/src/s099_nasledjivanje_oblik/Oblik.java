@@ -2,6 +2,17 @@ package s099_nasledjivanje_oblik;
 
 public class Oblik {
 
+<<<<<<< HEAD
+=======
+	/*
+	 * Realizovati klasu Oblik sa atributima
+	 * boja (String), tip (String), brojStrana (int), povrsina (double),
+	 * standardnim konstruktorom i konstruktorom koji postavlja inicijalne vrednosti,
+	 * metodama za postavljanje i pribavljanje atributa,
+	 * kao i metodama za promenu boje oblika i štampanje podataka o obliku.
+	 */
+	
+>>>>>>> branch 'master' of https://github.com/jugoslavjeftenic/brains.git
 	protected String boja, tip;
 	protected int brojStrana;
 	protected double povrsina;

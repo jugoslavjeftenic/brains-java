@@ -2,6 +2,7 @@ package s005_uvod_u_oop;
 
 class Racunar {
 	
+<<<<<<< HEAD
 	String procesor;
 	double radniTakt, indeksPerformansi;
 	int kapacitetMemorije;
@@ -37,6 +38,48 @@ public class S032_Racunar {
 	 */
 	
 	public static void main(String[] args) {
+=======
+	/*
+	 * Kreirati klasu Racunar sa atributima procesor (tipa String), radniTakt (tipa
+	 * double), kapacitetMemorije (tipa int), kao i metodama za postavljanje naziva
+	 * i radnog takta procesora, postavljanje kapaciteta memorije u GB, raèunanje
+	 * indeksa performansi raèunara po formuli: indeksPerformansi = 10*radniTakt +
+	 * kapacitetMemorije i štampanje indeksa performansi raèunara.
+	 */
+	
+	String procesor;
+	double radniTakt, indeksPerformansi;
+	int kapacitetMemorije;
+	
+	void postaviOsobine(String pProcesor, double pRadniTakt, int pKapacitetMemorije) {
+		
+		procesor = pProcesor;
+		radniTakt = pRadniTakt;
+		kapacitetMemorije = pKapacitetMemorije;
+		indeksPerformansi = 10 * (radniTakt + kapacitetMemorije);
+	}
+	
+	String pribaviProcesor() {
+		
+		return procesor;
+	}
+	
+	double pribaviPerformanse() {
+		
+		return indeksPerformansi;
+	}
+}
+
+public class S032_Racunar {
+
+	public static void main(String[] args) {
+		
+		/*
+		 * Potom testirati klasu kreiranjem pet objekta u okviru glavnog programa,
+		 * kojima prvo postavljamo vrednosti atributa, a potom raèunamo i prikazujemo
+		 * njihovu rang listu ureðenu po indeksu performansi u opadajuæem redosledu.
+		 */
+>>>>>>> branch 'master' of https://github.com/jugoslavjeftenic/brains.git
 		
 		double performanse[] = new double[5];
 
