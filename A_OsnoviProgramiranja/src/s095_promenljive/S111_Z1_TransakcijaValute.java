@@ -9,7 +9,5 @@ public class S111_Z1_TransakcijaValute {
 		
 		System.out.println("Kupili ste: " + evro + " evra po ceni od " + kurs + " dinara po evru.");
 		System.out.println("Za kupovinu evra ste utrošili " + rsd + " dinara.");
-
 	}
-
 }

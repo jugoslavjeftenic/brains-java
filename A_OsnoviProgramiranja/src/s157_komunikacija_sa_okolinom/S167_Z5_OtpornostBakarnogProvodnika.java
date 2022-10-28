@@ -17,7 +17,5 @@ public class S167_Z5_OtpornostBakarnogProvodnika {
 		double r = RCU * 4.0 * i / (d * d * Math.PI);
 
 		System.out.printf("Otpornost bakarnog provodnika dužine %.2f i preènika %.2f je %f.", i, d, r);
-
 	}
-
 }

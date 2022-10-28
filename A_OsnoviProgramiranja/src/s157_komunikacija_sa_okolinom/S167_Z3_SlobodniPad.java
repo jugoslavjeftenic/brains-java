@@ -24,7 +24,5 @@ public class S167_Z3_SlobodniPad {
 		finalnaPozicija = finalnaPozicija + inicijalnaPozicija;
 		
 		System.out.printf("Pozicija objekta nakon %.2f sekundi je %.2fm.", vremePadanja, finalnaPozicija);
-
 	}
-
 }

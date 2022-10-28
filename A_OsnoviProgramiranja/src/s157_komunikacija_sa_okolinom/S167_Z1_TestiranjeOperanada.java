@@ -5,20 +5,6 @@ public class S167_Z1_TestiranjeOperanada {
 
 	public static void main(String[] args) {
 
-//		int a, b;
-//		
-//		System.out.print("Unesite vrednost operanda a: ");
-//		a = TextIO.getlnInt();
-//
-//		System.out.print("Unesite vrednost operanda b: ");
-//		b = TextIO.getlnInt();
-//
-//		System.out.println("Rezultat a + b: " + (a + b));
-//		System.out.println("Rezultat a - b: " + (a - b));
-//		System.out.println("Rezultat a * b: " + (a * b));
-//		System.out.println("Rezultat a / b: " + (a / b));
-//		System.out.println("Rezultat a % b: " + (a % b));
-		
 		double a, b;
 		
 		System.out.print("Unesite vrednost operanda a: ");
@@ -45,7 +31,5 @@ public class S167_Z1_TestiranjeOperanada {
 
 		System.out.print("Rezultat a % b: ");
 		System.out.printf("%.2f", (a % b));
-
 	}
-
 }

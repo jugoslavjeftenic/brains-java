@@ -9,7 +9,5 @@ public class S139_Z1_ZapreminaKupe {
 		double v = (double) 1 / 3 * r * r * h * Math.PI;
 		
 		System.out.println(v);
-
 	}
-
 }

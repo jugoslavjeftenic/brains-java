@@ -15,7 +15,6 @@ public class S232_Z5_ApsolutniNiz {
 			a[i] = (int) ((Math.random() * (100 - -100)) + -100);
 
 		for(int i = 0; i < 2; i++) {
-			
 			switch (i) {
 			case 0:
 				System.out.println("Generisani niz je:");

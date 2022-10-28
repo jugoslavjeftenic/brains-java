@@ -17,7 +17,5 @@ public class S098_Promenljive {
 
 		b = a + b;
 		System.out.print("Vrednost promenljive b = a + b je: " + b);
-
 	}
-
 }

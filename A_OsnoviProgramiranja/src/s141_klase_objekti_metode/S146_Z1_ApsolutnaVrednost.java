@@ -5,7 +5,5 @@ public class S146_Z1_ApsolutnaVrednost {
 		
 		double broj = -6.357;
 		System.out.println("Apsolutna vrednost broja " + broj + " je: " + Math.abs(broj));
-
 	}
-
 }

@@ -31,7 +31,5 @@ public class S190_KvadratnaJednacina_NijeDobroResen {
             x2 = (-b - Math.sqrt(b * b - 4 * a * c)) / (2 * a);
             System.out.printf("Rešenje je: X1=%f, X2=%f", x1, x2);
         }
-
 	}
-
 }

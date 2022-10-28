@@ -13,7 +13,5 @@ public class S115_Z1_ZamenaSadrzajaPromenljive {
 		b = tmp;
 		
 		System.out.println("Vrednosti nakon zamene: A - " + a + ", B - " + b + ".");
-
 	}
-
 }

@@ -9,7 +9,5 @@ public class S111_Z2_PotrosnjaGoriva {
 		double potrosnja = (double) potrosenoL / predjenoKm * 100;
 		
 		System.out.println("Vaš automobil ima proseènu potrošnju od " + potrosnja + " l/100km.");
-
 	}
-
 }

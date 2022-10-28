@@ -11,7 +11,5 @@ public class S139_Z3_Pritisak {
 		double p = (double) n * R * t / v;	// apsolutni pritisak gasa (Pa)
 		
 		System.out.println("Rezultat je " + p + " Pa.");
-
 	}
-
 }

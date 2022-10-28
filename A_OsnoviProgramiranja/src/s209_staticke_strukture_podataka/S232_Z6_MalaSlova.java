@@ -18,9 +18,10 @@ public class S232_Z6_MalaSlova {
 			System.out.print(c[i] + " ");
 			a[i] = (char) (c[i] + 32);
 		}
+
 		System.out.println();
-		
 		System.out.println();
+
 		System.out.println("Niz sa malim slovima je:");
 		for (int i = 0; i < a.length; i++) {
 			System.out.print(a[i] + " ");

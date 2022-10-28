@@ -30,7 +30,5 @@ public class S110_Investicija {
 		 */
 		System.out.println("Za godinu dana zaradjeno je: " + zarada + " dinara.");
 		System.out.println("Ukupna vrednost investije je sada: " + investicija + " dinara.");
-
 	}
-
 }

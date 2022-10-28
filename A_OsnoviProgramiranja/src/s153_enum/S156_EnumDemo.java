@@ -15,6 +15,5 @@ public class S156_EnumDemo {
 		System.out.println("To je "+ (mesecRodjenja.ordinal() + 1) + ". mesec godine.");
 		System.out.println("Dan kada sam se rodio je " + danRodjenja + ".");
 		System.out.println( danRodjenja + " je " + danRodjenja.ordinal() + ". dan u nedelji.");
-		
 	}
 }

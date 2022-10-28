@@ -27,20 +27,17 @@ public class S220_Z2_SumaElemenataNizaSaPozicijom {
 		String maksIndeksi = "";
 		
 		do {
-			
 			System.out.println("Unesite broj elemenata:");
 			n = TextIO.getlnInt();
 			
 			if (!(n < 51 && n > 0)) {
 				System.out.println("Broj elemenata mora biti izmedju 1 i 50");
 			}
-			
 		} while (!(n < 51 && n > 0));
 		
 		niz = new int [n];
 		
 		for (int i = 0; i < niz.length; i++) {
-
 			do {
 				System.out.println("Upisite vrednost elementa " + (i + 1) + ": ");
 				niz[i] = TextIO.getlnInt();
@@ -49,7 +46,6 @@ public class S220_Z2_SumaElemenataNizaSaPozicijom {
 					System.out.println("Vrednost mora da bude veća od 0!");
 				}
 			} while (!(niz[i] > 0));
-
 			suma += niz[i];
 		}
 
@@ -73,9 +69,7 @@ public class S220_Z2_SumaElemenataNizaSaPozicijom {
 		}
 
 		System.out.println("Pozicije najvecih vrednosti su: " + maksIndeksi);
-		
 		System.out.println("-----");
 		System.out.println("KRAJ.");
 	}
-
 }

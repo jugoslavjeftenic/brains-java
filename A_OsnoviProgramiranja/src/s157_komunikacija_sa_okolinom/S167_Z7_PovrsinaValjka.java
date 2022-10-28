@@ -16,7 +16,5 @@ public class S167_Z7_PovrsinaValjka {
 		double a = 2 * r * (r + h) * Math.PI;
 
 		System.out.printf("Površina valjka polupreènika %.2f i visine %.2f je %.2f.", r, h, a);
-
 	}
-
 }

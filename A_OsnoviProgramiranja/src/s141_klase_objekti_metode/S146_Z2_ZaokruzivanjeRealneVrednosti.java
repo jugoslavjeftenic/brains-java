@@ -8,7 +8,5 @@ public class S146_Z2_ZaokruzivanjeRealneVrednosti {
 		System.out.println("Primer Math.round funkcije za ceo broj " + ceoBroj + " je: " + Math.round(ceoBroj));
 		System.out.println("Primer Math.ceil  funkcije za ceo broj " + ceoBroj + " je: " + Math.ceil(ceoBroj));
 		System.out.println("Primer Math.floor funkcije za ceo broj " + ceoBroj + " je: " + Math.floor(ceoBroj));
-
 	}
-
 }

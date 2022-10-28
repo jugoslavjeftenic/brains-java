@@ -8,7 +8,5 @@ public class S139_Z4_PovrsinaValjka {
 		double a = 2 * r * (r + h) * Math.PI;
 		
 		System.out.println("Površina valjka polupreènika r=" + r + ", i visine H=" + h + " je " + a + ".");
-
 	}
-
 }

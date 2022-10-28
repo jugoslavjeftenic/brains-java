@@ -26,7 +26,5 @@ public class S145_RacunanjeVremena {
 		vremeKraja = System.currentTimeMillis();
 		vreme = (vremeKraja - vremePocetka) / 1000.0;
 		System.out.println("Ukupno trajanje programa u sekundama je: " + vreme);
-
 	}
-
 }

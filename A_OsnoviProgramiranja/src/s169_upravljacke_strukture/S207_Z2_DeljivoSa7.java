@@ -15,22 +15,16 @@ public class S207_Z2_DeljivoSa7 {
 		// Na poèetku deklarišemo promenljivu koja æe nam trebati kroz ceo program.
 		int broj;
 		
-		
 		// Zadatak kaže da program treba da radi sve dok se ne upiše vrednost -1
 		// pa u ovoj petlji vrtimo sve dok je petlja "true", odnosno beskonaèno.
 		// Unutar petlje æemo ispitati da li je vrednost -1 i izaæi iz programa.
 		do {
-			
-			
 			// Unutar glavne petlje pravimo novu petlju koja æe korisnika vrteti u unosu
 			// sve dok ne upiše uslov za završetak programa, "-1"
 			do {
-				
-				
 				// Korisnik upisuje vrednost.
 				System.out.println("Unestite ceo broj u intervalu 6 - 142 (izlaz: -1)");
 				broj = TextIO.getlnInt();
-				
 				
 				// Ispitujemo da li je upisao "-1" i ako jeste prekidamo program televizije
 				// sa odgovarajuæom porukom.
@@ -38,7 +32,6 @@ public class S207_Z2_DeljivoSa7 {
 					System.out.println("Upisali ste vrednost za KRAJ programa.");
 					System.exit(0);
 				}
-				
 				
 				// Ispitujemo da li je korisnikov broj manji od 6 ILI veæi od 142
 				// i na fin naèin mu kažemo da nije bistar.
@@ -56,14 +49,12 @@ public class S207_Z2_DeljivoSa7 {
 			// Kod pisanja programa se èesto polazi od pretpostavke da korisnik nije
 			// najintiligentnija osoba na svetu.
 			
-			
 			// Ispitujemo da li upisani broj ima ostatak pri delenju sa 7
 			// (https://www.baeldung.com/modulo-java)
 			if (broj % 7 == 0) {
 				System.out.printf("Broj %d je deljiv sa 7 i sa 7 je podeljen ukupno %d puta.\n\n",
 					broj, broj / 7);
 			}
-			
 			
 			// a ako ima ostatak, deklarišemo privremenu promenljivu "ostatak" za ispis
 			// koja æe živeti kratko (poput leptira) i postojati samo dok smo u else delu.
@@ -88,7 +79,5 @@ public class S207_Z2_DeljivoSa7 {
 		// ispituje da li A jeste veæe od B, i to taèno ili netaèno se prenosi u while
 		// koji zatim ponavlja petlju u sluèaju taènog ili izlazi iz petlje i nastavlja
 		// program u sluèaju netaènog.
-		
 	}
-
 }

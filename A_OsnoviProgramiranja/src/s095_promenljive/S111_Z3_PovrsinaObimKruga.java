@@ -10,7 +10,5 @@ public class S111_Z3_PovrsinaObimKruga {
 		
 		System.out.println("Površina kruga polupreènika " + (int) r + " je " + povrsina + ".");
 		System.out.println("Obim kruga polupreènika " + (int) r + " je " + obim + ".");
-
 	}
-
 }

@@ -16,7 +16,5 @@ public class S165_KvadratBroja {
 		System.out.println("Broj koji ste uneli je " + broj);
 		System.out.println("Kvadrat unetog broja je " + kvadrat);
 		System.out.println();
-
 	}
-
 }

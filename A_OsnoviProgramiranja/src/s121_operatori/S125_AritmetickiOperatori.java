@@ -11,7 +11,5 @@ public class S125_AritmetickiOperatori {
 		System.out.println("Rezultat a * b: " + (a * b));
 		System.out.println("Rezultat a / b: " + (a / b));
 		System.out.println("Rezultat a % b: " + (a % b));
-
 	}
-
 }

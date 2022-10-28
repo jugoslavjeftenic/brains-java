@@ -27,7 +27,7 @@ public class S232_Z4_SamoBrojevi {
 		System.out.println();
 		
 		indeks++;
-		System.out.println("Brojevi izfvojeni iz generisanog niza su:");
+		System.out.println("Brojevi izdvojeni iz generisanog niza su:");
 		for(int i = 0; i < indeks; i++)
 			System.out.print(a[i] + " ");
 		System.out.println();

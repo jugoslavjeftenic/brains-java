@@ -19,7 +19,5 @@ public class S167_Z2_PredjeniPut {
 		predjeniPut = predjeniPut + pocetnaBrzina * vreme;
 		
 		System.out.printf("Predjeni put nakon %.2f sekundi je %.2fm.", vreme, predjeniPut);
-
 	}
-
 }

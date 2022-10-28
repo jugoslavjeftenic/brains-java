@@ -16,7 +16,5 @@ public class S167_Z4_ZapreminaKupe {
 		double v =  1.0 / 3 * r * r * h * Math.PI;
 		
 		System.out.printf("Zapremina kupe poluprecnika %.2f i visine %.2f iznosi %.2f", r, h, v);
-
 	}
-
 }

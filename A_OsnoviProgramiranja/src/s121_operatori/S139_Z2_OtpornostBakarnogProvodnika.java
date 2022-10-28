@@ -9,7 +9,5 @@ public class S139_Z2_OtpornostBakarnogProvodnika {
 		
 		System.out.println(r);
 		System.out.println((double) 1588e-8);
-
 	}
-	
 }
