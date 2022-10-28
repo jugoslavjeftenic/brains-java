@@ -13,8 +13,7 @@ public class Motocikl extends Vozilo {
 
 	public void stampajPodatke() {
 		System.out.printf("%s %s, god.proizvodnje [%d], registracija [%s], %s, vlasnik %s %s",
-			getMarka(), getTip(), getGodiste(), getRegistracija(),
-			(isRegistrovan()) ? "registrovan" : "nije registrovan",	vlasnik.getIme(), vlasnik.getPrezime());
+			getMarka(), getTip(), getGodiste(), getRegistracija(), (isRegistrovan()) ? "registrovan" : "nije registrovan",	vlasnik.getIme(), vlasnik.getPrezime());
 	}
 	
 	public boolean isRegistrovan() {

@@ -13,7 +13,7 @@ public class Osoba {
 	}
 	
 	public void predstaviSe() {
-		System.out.printf("JMBG[%s] %s %s", getJmbg(), getIme(), getPrezime());
+		System.out.printf("\tJMBG[%s] %s %s", getJmbg(), getIme(), getPrezime());
 	}
 	
 	public String getIme() {

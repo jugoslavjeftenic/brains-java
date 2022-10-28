@@ -32,7 +32,7 @@ public class Ucionica {
 				racunari[i].stampajRacunar();
 				System.out.println();
 			}
-			System.out.println("----------------------------");
+			System.out.println("------------------------------");
 		}
 	}
 	

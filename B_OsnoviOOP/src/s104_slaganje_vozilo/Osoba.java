@@ -15,7 +15,7 @@ public class Osoba {
 	
 	public void predstaviSe() {
 		System.out.println("\nInformacije o vlasnici/ku:");
-		System.out.printf("\t%s %s, star/a %d godina.", getIme(), getPrezime(), getStarost());
+		System.out.printf("\t%s %s [%d godine].", getIme(), getPrezime(), getStarost());
 	}
 
 	public String getIme() {

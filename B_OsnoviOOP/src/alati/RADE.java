@@ -93,14 +93,13 @@ public class RADE {
 	}
 
 	public static String generisiPrezime() {
-		String[] prezimena = {"Markovic", "Kraljevic", "Petrovic", "Ivanovic",
-				"Sretenovic", "Jovanovic", "Djordjevic", "Nikolic", "Popadic", "Stojanovic"};
+		String[] prezimena = {"Markovic", "Kraljevic", "Petrovic", "Ivanovic", "Sretenovic", "Jovanovic", "Djordjevic", "Nikolic", "Popadic", "Stojanovic"};
 		return prezimena[mrRobot(0, prezimena.length)];
 	}
 	
 	public static String generisiGrad() {
 		String[] gradovi = {"Beograd", "Novi Sad", "Nis", "Pristina", "Pristina", "Kragujevac", "Subotica",
-				"Leskovac", "Krusevac", "Kraljevo", "Zrenjanin", "Pancevo", "Èaèak", "Sabac", "Novi Pazar"};
+				"Leskovac", "Krusevac", "Kraljevo", "Zrenjanin", "Pancevo", "Cacak", "Sabac", "Novi Pazar"};
 		return gradovi[mrRobot(0, gradovi.length)];
 	}
 	
@@ -130,20 +129,15 @@ public class RADE {
 	}
 
 	public static String generisiBoju() {
-		String[] boja = {"Crvena", "Zelena", "Zuta", "Ljubicasta", "Narandzasta", "Roze",
-				"Bela", "Crna", "Cijan", "Plava"};
+		String[] boja = {"Crvena", "Zelena", "Zuta", "Ljubicasta", "Narandzasta", "Roze", "Bela", "Crna", "Cijan", "Plava"};
 		return boja[mrRobot(0, boja.length)];
 	}
 	
-<<<<<<< HEAD
 	public static String generisiTim() {
-		String[] tim = {"Sokoli", "Orlovi", "Vrabci", "Tigrovi", "Vukovi", "Gavrani",
-				"Pobednici", "Bednici", "Lavovi", "Alkoholicari", "Nindze"};
+		String[] tim = {"Sokoli", "Orlovi", "Vrabci", "Tigrovi", "Vukovi", "Gavrani", "Pobednici", "Bednici", "Lavovi", "Alkoholicari", "Nindze"};
 		return tim[mrRobot(0, tim.length)];
 	}
 	
-=======
->>>>>>> branch 'master' of https://github.com/jugoslavjeftenic/brains.git
 	public static int mrRobot(int min, int max) {
 		return (int) ((Math.random() * (max - min)) + min);
 	}

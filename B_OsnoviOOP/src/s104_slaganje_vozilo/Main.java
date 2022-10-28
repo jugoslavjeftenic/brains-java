@@ -3,7 +3,11 @@ package s104_slaganje_vozilo;
 import alati.RADE;
 
 public class Main {
-
+	
+	/*
+	 * Agregacija Vozilo-Motor, asocijacija Vozilo-Osoba
+	 */
+	
 	public static void main(String[] args) {
 		
 		Motor mb750 = new Motor("benzin", 25, 750);

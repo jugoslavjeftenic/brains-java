@@ -1,4 +1,4 @@
-package s099_nasledjivanje_oblik;
+package s114_polimorfizam_oblik;
 
 public class Kvadrat extends Oblik {
 
@@ -10,18 +10,18 @@ public class Kvadrat extends Oblik {
 		super(boja, "kvadrat", 4);
 		this.duzinaStranice = duzinaStranice;
 	}
-
-	public double racunajPovrsinu() {
+	
+	public double izracunajPovrsinu() {
 		return duzinaStranice * duzinaStranice;
 	}
 	
-	public double racunajObim() {
-		return duzinaStranice * brojStrana;
+	public double izracunajObim() {
+		return brojStrana * duzinaStranice;
 	}
 	
 	public void ispisiPodatke() {
 		super.ispisiPodatke();
-		System.out.printf("Povrsina %.2f, obim %.2f, duzina stranice %.2f.\n", racunajPovrsinu(), racunajObim(), getDuzinaStranice());
+		System.out.printf(" duzina stranice[%.2f] povrsina[%.2f] obim[%.2f]", duzinaStranice, izracunajPovrsinu(), izracunajObim());
 	}
 
 	public double getDuzinaStranice() {

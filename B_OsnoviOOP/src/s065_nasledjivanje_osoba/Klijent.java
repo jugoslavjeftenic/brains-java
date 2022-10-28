@@ -20,8 +20,7 @@ public class Klijent extends Osoba {
 	}
 
 	public void prikaziStanje() {
-		System.out.printf("Klijent %s %s ima na racunu %.2f dukata.\n",
-			getIme(), getPrezime(), getRacunStanje());
+		System.out.printf("Klijent %s %s ima na racunu %.2f dukata.\n", getIme(), getPrezime(), getRacunStanje());
 	}
 	
 	public void prebaciNovac(Klijent klijent, double suma) {

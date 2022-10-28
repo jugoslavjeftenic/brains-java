@@ -14,7 +14,7 @@ public class Motocikl extends Vozilo {
 
 	public void stampajPodatke() {
 		System.out.printf("Motocikl, %s.\n", (registrovan ? "registrovan" : "neregistrovan"));
-		System.out.println("---------------------");
+		System.out.println("------------------------------");
 		super.stampajPodatke();
 	}
 

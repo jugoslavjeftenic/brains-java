@@ -86,6 +86,12 @@ class Vozilo {
 
 public class S062_Z4_Vozilo {
 
+	/*
+	 * Realizovati prethodno implementirane klase (Student, Zaposleni, Racunar, Vozilo)
+	 * tako da pruze dobru enkapsulaciju podataka kroz uvoðenje pristupnih atributa i
+	 * realizaciju pristupnih metoda (za postavljanje i pribavljanje vrednosti) za svaki od atributa.
+	 */
+	
 	public static void main(String[] args) {
 		
 		Vozilo fica = new Vozilo("Zastava", "750", 1972, "SU-001", 80, 25);

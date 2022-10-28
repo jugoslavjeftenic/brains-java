@@ -1,18 +1,6 @@
-package s064_oop_obavezni_zadatak_1;
+package s064_Racunar;
 
 public class Racunar {
-
-	/*
-	 * Stvoriti klasu Racunar sa atributima
-	 * oznakaProcesora (tipa String),
-	 * radniTakt (tipa double),
-	 * kapacitetMemorije (tipa int),
-	 * standardnim konstruktorom i konstruktorom koji postavlja inicijalne vrednosti,
-	 * pristupnim metodama (get i set) za sve atribute,
-	 * kao i metodom za raèunanje indeksa performansi raèunara po formuli:
-	 * indeksPerformansi = 100*radniTakt + kapacitetMemorije.
-	 * Implementirati i metod za prikaz indeksa performansi raèunara u konzoli.
-	 */
 
 	private String imeRacunara, oznakaProcesora;
 	private double radniTakt;

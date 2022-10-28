@@ -2,7 +2,6 @@ package s005_uvod_u_oop;
 
 class Poruka {
 
-<<<<<<< HEAD
 	String tekst;
 	
 	void postaviTekst (String noviTekst) {
@@ -19,36 +18,11 @@ public class S019_Poruka {
 	/*
 	 * Potrebno je kreirati klasu Poruka sa atributom tekst i metodama postaviTeksti pribaviTekst
 	 * 
-	 * Potom testiramo našu klasu kreiranjem objekta klase (tipa) Poruka u okviru glavnog programa,
-	 * praæenog postavljanjem i prikazivanjem njenog sadržaja
+	 * Potom testiramo nasu klasu kreiranjem objekta klase (tipa) Poruka u okviru glavnog programa,
+	 * pracenog postavljanjem i prikazivanjem njenog sadrzaja
 	 */
 	
 	public static void main(String[] args) {
-=======
-	/*
-	 * Potrebno je kreirati klasu Poruka sa atributom tekst i
-	 * metodama postaviTeksti pribaviTekst
-	 */
-	
-	String tekst;
-	
-	void postaviTekst (String noviTekst) {
-		tekst = noviTekst;
-	}
-	
-	void pribaviTekst () {
-		System.out.println(tekst);
-	}
-}
-
-public class S019_Poruka {
-
-	public static void main(String[] args) {
-		/*
-		 * Potom testiramo našu klasu kreiranjem objekta klase (tipa) Poruka u okviru
-		 * glavnog programa, praæenog postavljanjem i prikazivanjem njenog sadržaja
-		 */
->>>>>>> branch 'master' of https://github.com/jugoslavjeftenic/brains.git
 		
 		Poruka prvaPoruka = new Poruka();
 		

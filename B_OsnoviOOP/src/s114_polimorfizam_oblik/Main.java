@@ -1,19 +1,19 @@
-package s111_polimorfizam_oblik;
+package s114_polimorfizam_oblik;
 
 import alati.RADE;
 
 public class Main {
 
 	/*
-	 * Realizovati klasu Oblik sa atributima boja (String), tip (String), brojStrana
-	 * (int), standardnim konstruktorom i konstruktorom koji postavlja inicijalne
-	 * vrednosti, kao i metodama za promenu boje oblika i štampanje podataka o
-	 * obliku. • Realizovati klase Kvadrat (dodatni atribut duzinaStranice tipa
-	 * double) i Krug (dodatni atribut poluprecnik tipa double) koje nasleðuju klasu
-	 * Oblik i implementiraju metode za raèunanje površine i obima.
+	 * Realizovati klasu Oblik sa atributima boja (String), tip (String), brojStrana (int),
+	 * standardnim konstruktorom i konstruktorom koji postavlja inicijalne vrednosti,
+	 * kao i metodama za promenu boje oblika i stampanje podataka o obliku.
+	 * Realizovati klase Kvadrat (dodatni atribut duzinaStranice tipa double) i
+	 * Krug (dodatni atribut poluprecnik tipa double) koje nasledjuju klasu Oblik i
+	 * implementiraju metode za racunanje povrsine i obima.
 	 * 
-	 * • Klase testirati kreiranjem više objekata u glavnom programu i pozivanjem metoda za
-	 * raèunanje površine i obima i štampu podataka.
+	 * Klase testirati kreiranjem vise objekata u glavnom programu i pozivanjem metoda za
+	 * racunanje povrsine i obima i stampu podataka.
 	 */
 	
 	public static void main(String[] args) {

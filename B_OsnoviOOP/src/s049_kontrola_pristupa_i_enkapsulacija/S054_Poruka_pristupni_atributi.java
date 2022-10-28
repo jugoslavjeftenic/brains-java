@@ -22,7 +22,7 @@ public class S054_Poruka_pristupni_atributi {
 //		p.tekst = "Zdravo Radovane!"; // nije vidljivo
 		p.prikaziPoruku();
 
-		p.postaviTekst("Zdravo svete!");
+		p.postaviTekst("Zdravo Svete!");
 		p.prikaziPoruku();
 	}
 }

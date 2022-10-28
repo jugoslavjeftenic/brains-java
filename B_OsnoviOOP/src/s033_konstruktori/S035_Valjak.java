@@ -2,16 +2,16 @@ package s033_konstruktori;
 
 class Valjak {
 	
-	float r, H;
+	float r, h;
 	
 	Valjak() {
 		r = 0;
-		H = 0;
+		h = 0;
 	}
 	
 	Valjak(float r1, float H1) {
 		r = r1;
-		H = H1;
+		h = H1;
 	}
 	
 	float pribaviPoluprecnik() {
@@ -19,11 +19,11 @@ class Valjak {
 	}
 	
 	float pribaviVisinu() {
-		return H;
+		return h;
 	}
 	
 	double pribaviZapreminuValjka() {
-		return r * r * Math.PI * H;
+		return r * r * Math.PI * h;
 	}
 }
 

@@ -14,7 +14,7 @@ public class Automobil extends Vozilo {
 	
 	public void stampajPodatke() {
 		System.out.printf("Automobil sa %d vrata.\n", brojVrata);
-		System.out.println("---------------------");
+		System.out.println("------------------------------");
 		super.stampajPodatke();
 	}
 

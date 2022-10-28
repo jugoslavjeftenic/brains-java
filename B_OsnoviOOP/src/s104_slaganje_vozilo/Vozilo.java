@@ -24,9 +24,7 @@ class Vozilo {
 
 	public void stampajPodatke() {
 		System.out.println("Informacije o vozilu:");
-		System.out.printf("\tMarka [%s],\n\tTip [%s],\n\tRegistracija [%s],\n\tGodiste [%d].\n",
-<<<<<<< HEAD
-			getMarka(), getTip(), getRegistracija(), getGodiste());
+		System.out.printf("\tMarka [%s],\n\tTip [%s],\n\tRegistracija [%s],\n\tGodiste [%d].\n", getMarka(), getTip(), getRegistracija(), getGodiste());
 		motor.stampajPodatke();
 		vlasnik.predstaviSe();
 		System.out.println();
@@ -81,61 +79,3 @@ class Vozilo {
 		this.vlasnik = vlasnik;
 	}
 }
-=======
-				getMarka(), getTip(), getRegistracija(), getGodiste());
-		motor.stampajPodatke();
-		vlasnik.predstaviSe();
-		System.out.println();
-		System.out.println();
-	}
-
-	public String getMarka() {
-		return marka;
-	}
-
-	public void setMarka(String marka) {
-		this.marka = marka;
-	}
-
-	public String getTip() {
-		return tip;
-	}
-
-	public void setTip(String tip) {
-		this.tip = tip;
-	}
-
-	public String getRegistracija() {
-		return registracija;
-	}
-
-	public void setRegistracija(String registracija) {
-		this.registracija = registracija;
-	}
-
-	public int getGodiste() {
-		return godiste;
-	}
-
-	public void setGodiste(int godiste) {
-		this.godiste = godiste;
-	}
-
-	public Motor getMotor() {
-		return motor;
-	}
-
-	public void setMotor(Motor motor) {
-		this.motor = motor;
-	}
-
-	public Osoba getVlasnik() {
-		return vlasnik;
-	}
-
-	public void setVlasnik(Osoba vlasnik) {
-		this.vlasnik = vlasnik;
-	}
-}
-
->>>>>>> branch 'master' of https://github.com/jugoslavjeftenic/brains.git

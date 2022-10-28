@@ -50,15 +50,13 @@ class Zaposleni {
 
 public class S062_Z2_Zaposleni {
 
+	/*
+	 * Realizovati prethodno implementirane klase (Student, Zaposleni, Racunar, Vozilo)
+	 * tako da pruze dobru enkapsulaciju podataka kroz uvoðenje pristupnih atributa i
+	 * realizaciju pristupnih metoda (za postavljanje i pribavljanje vrednosti) za svaki od atributa.
+	 */
+	
 	public static void main(String[] args) {
-<<<<<<< HEAD
-=======
-
-		/*
-		 * Potom testirati klasu kreiranjem tri objekta u okviru glavnog programa,
-		 * za koje izraèunavamo platu i potom prikazujemo podatke o zaposlenima i njihovim platama
-		 */
->>>>>>> branch 'master' of https://github.com/jugoslavjeftenic/brains.git
 		
 		int brojRadnihDana = 30;
 		

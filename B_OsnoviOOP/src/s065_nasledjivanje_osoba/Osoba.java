@@ -39,6 +39,6 @@ public class Osoba {
 
 	public void predstaviSe() {
 		System.out.printf
-		("Ime: %s Prezime: %s Starost: %s godina.\n", getIme(), getPrezime(), getStarost());
+		("Ime: %s Prezime: %s Starost: %s god.\n", getIme(), getPrezime(), getStarost());
 	}
 }

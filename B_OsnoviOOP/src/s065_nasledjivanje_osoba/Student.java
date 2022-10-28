@@ -44,7 +44,6 @@ public class Student extends Osoba {
 	
 	public void stampajProsek() {
 		System.out.printf
-			("Student %s %s, broj indeksa %d - prosecan broj poena: %.2f.\n",
-			 getIme(), getPrezime(), getBrojIndeksa(), racunajProsek());
+			("Student %s %s, broj indeksa %d - prosecan broj poena: %.2f.\n", getIme(), getPrezime(), getBrojIndeksa(), racunajProsek());
 	}
 }

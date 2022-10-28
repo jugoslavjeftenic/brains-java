@@ -21,8 +21,7 @@ public class Vozilo {
 	}
 
 	protected void stampajPodatke() {
-		System.out.printf("%s %s %d %s %s %s",
-			getMarka(), getTip(), getGodiste(), getRegistracija(), vlasnik.getIme(), vlasnik.getPrezime());
+		System.out.printf("%s %s %d %s %s %s", getMarka(), getTip(), getGodiste(), getRegistracija(), vlasnik.getIme(), vlasnik.getPrezime());
 	}
 
 	public String getMarka() {

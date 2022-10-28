@@ -13,8 +13,7 @@ public class Kamion extends Vozilo {
 
 	public void stampajPodatke() {
 		System.out.printf("%s %s, god.proizvodnje [%d], registracija [%s], br.osovina [%d], vlasnik %s %s",
-			getMarka(), getTip(), getGodiste(), getRegistracija(), getBrojOsovina(),
-			vlasnik.getIme(), vlasnik.getPrezime());
+			getMarka(), getTip(), getGodiste(), getRegistracija(), getBrojOsovina(), vlasnik.getIme(), vlasnik.getPrezime());
 	}
 	
 	public int getBrojOsovina() {

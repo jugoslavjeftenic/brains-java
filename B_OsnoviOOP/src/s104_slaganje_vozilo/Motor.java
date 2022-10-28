@@ -25,8 +25,7 @@ public class Motor {
 	
 	public void stampajPodatke() {
 		System.out.println("Informacije o motoru:");
-		System.out.printf("\tUpaljen [%s],\n\tTip [%s],\n\tSnaga [%dkS],\n\tKubikaza [%dccm].",
-				(isRadi() ? "da" : "ne"), getTip(), getSnaga(), getKubikaza());
+		System.out.printf("\tUpaljen [%s],\n\tTip [%s],\n\tSnaga [%dkS],\n\tKubikaza [%dccm].", (isRadi() ? "da" : "ne"), getTip(), getSnaga(), getKubikaza());
 	}
 
 	public boolean isRadi() {

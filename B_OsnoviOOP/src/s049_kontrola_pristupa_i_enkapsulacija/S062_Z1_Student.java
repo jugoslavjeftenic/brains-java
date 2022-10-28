@@ -62,7 +62,13 @@ class Student {
 }
 
 public class S062_Z1_Student {
-
+	
+	/*
+	 * Realizovati prethodno implementirane klase (Student, Zaposleni, Racunar, Vozilo)
+	 * tako da pruze dobru enkapsulaciju podataka kroz uvoðenje pristupnih atributa i
+	 * realizaciju pristupnih metoda (za postavljanje i pribavljanje vrednosti) za svaki od atributa.
+	 */
+	
 	public static void main(String[] args) {
 		
 		Student student1 = new Student("Marko", "Markovic", 2, 3);

@@ -14,7 +14,7 @@ public class Kamion extends Vozilo {
 
 	public void stampajPodatke() {
 		System.out.printf("Kamion sa %d osovine.\n", brojOsovina);
-		System.out.println("---------------------");
+		System.out.println("------------------------------");
 		super.stampajPodatke();
 	}
 

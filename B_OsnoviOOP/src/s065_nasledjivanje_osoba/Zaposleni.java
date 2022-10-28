@@ -33,8 +33,7 @@ public class Zaposleni extends Osoba {
 	
 	public void stampajPlatu(int brojDana) {
 		racunajPlatu(brojDana);
-		System.out.printf
-			("Zaposleni %s %s, na radnom mestu sa koeficijentom %.2f ima platu %.2f\n",
+		System.out.printf("Zaposleni %s %s, na radnom mestu sa koeficijentom %.2f ima platu %.2f\n",
 			getIme(), getPrezime(), getQRM(), getPlata());
 	}
 }
