@@ -2,13 +2,13 @@ package s209_staticke_strukture_podataka;
 
 public class S232_Z4_SamoBrojevi {
 
+	/*
+	 * Dat je niz C od maksimalno 15 karaktera. Uèitati n karaktera u niz C i
+	 * formirati niz A, pri èemu su elementi niza A samo brojevi iz niza C.
+	 */
+
 	public static void main(String[] args) {
 		
-		/*
-		 * Dat je niz C od maksimalno 15 karaktera. Uèitati n karaktera u niz C i
-		 * formirati niz A, pri èemu su elementi niza A samo brojevi iz niza C.
-		 */
-
 		int indeks = 0;
 		char[] a = new char[15], c = new char[15];
 		for(int i = 0; i < c.length; i++)

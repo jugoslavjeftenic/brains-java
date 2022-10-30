@@ -1,6 +1,6 @@
 package s235_potprogrami;
 
-public class S258_PrenosParametara_Niz {
+public class S258_PrenosParametara_niz {
 
 	public static void main(String[] args) {
 		

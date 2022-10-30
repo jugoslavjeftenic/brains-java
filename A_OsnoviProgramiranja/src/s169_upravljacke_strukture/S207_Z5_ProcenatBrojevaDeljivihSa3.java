@@ -4,16 +4,16 @@ import alati.TextIO;
 
 public class S207_Z5_ProcenatBrojevaDeljivihSa3 {
 
-	public static void main(String[] args) {
-		
-		/*
-		 * Napisati program koji odreðuje procenat brojeva deljivih sa 3 
-		 * od N brojeva. Korisnik unosi N, a zatim same brojeve (15-62). 
-		 */
+	/*
+	 * Napisati program koji odreðuje procenat brojeva deljivih sa 3 
+	 * od N brojeva. Korisnik unosi N, a zatim same brojeve (15-62). 
+	 */
 
-		/*
-		 * NAPOMENA. Rešenje treæeg zadatak nisam dobro osmislio. Ipak može bez niza. 
-		 */
+	/*
+	 * NAPOMENA. Rešenje treæeg zadatak nisam dobro osmislio. Ipak može bez niza. 
+	 */
+	
+	public static void main(String[] args) {
 		
 		// Deklarišemo globalne promenljive.
 		int n, broj, brojac = 0;

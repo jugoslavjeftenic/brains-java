@@ -2,7 +2,7 @@ package s235_potprogrami;
 
 import alati.TextIO;
 
-public class S252_Z2_Kalkulator {
+public class S252_Z2_Kalkulator_prosiren {
 
 	/*
 	 * Implementirati program koji raèuna sumu, razliku, proizvod i koliènik dva

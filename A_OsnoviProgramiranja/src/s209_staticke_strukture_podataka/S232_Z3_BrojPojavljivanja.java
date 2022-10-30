@@ -4,14 +4,14 @@ import alati.TextIO;
 
 public class S232_Z3_BrojPojavljivanja {
 
+	/*
+	 * Dat je niz A od maksimalno 20 celobrojnih elemenata. Uèitati n elemenata,
+	 * zatim uèitati ceo broj br. Na izlazu ispisati ceo niz i broj pojavljivanja
+	 * broja br u nizu.
+	 */
+	 
 	public static void main(String[] args) {
 
-		/*
-		 * Dat je niz A od maksimalno 20 celobrojnih elemenata. Uèitati n elemenata,
-		 * zatim uèitati ceo broj br. Na izlazu ispisati ceo niz i broj pojavljivanja
-		 * broja br u nizu.
-		 */
-		 
 		int a[] = new int[20];
 		for(int i = 0; i < a.length; i++)
 			a[i] = (int) ((Math.random() * (10 - 1)) + 1);

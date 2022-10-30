@@ -2,10 +2,10 @@ package s169_upravljacke_strukture;
 
 import alati.TextIO;
 
-public class S182_SwitchSelekcija_IspisUspeha_Break {
+public class S184_SwitchSelekcija_IspisUspeha_default {
 
 	public static void main(String[] args) {
-
+		
 		/* Definicija promenljive */
 		int ocena;
 
@@ -15,21 +15,18 @@ public class S182_SwitchSelekcija_IspisUspeha_Break {
 		ocena = TextIO.getlnInt();
 
 		/* Odredjivanje uspeha i ispis */
-		switch (ocena) {
-		case 1:
-			System.out.println("Nedovoljan!");
+		switch (ocena){
+			case 1: System.out.println("Nedovoljan!");
 			break;
-		case 2:
-			System.out.println("Dovoljan!");
+			case 2: System.out.println("Dovoljan!");
 			break;
-		case 3:
-			System.out.println("Dobar!");
+			case 3: System.out.println("Dobar!");
 			break;
-		case 4:
-			System.out.println("Vrlo dobar!");
+			case 4: System.out.println("Vrlo dobar!");
 			break;
-		case 5:
-			System.out.println("Odlican!");
+			case 5: System.out.println("Odlican!");
+			break;
+			default: System.out.println("Ocena mora biti izmedju 1 i 5.");
 		}
 	}
 }

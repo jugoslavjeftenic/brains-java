@@ -2,7 +2,7 @@ package s209_staticke_strukture_podataka;
 
 import alati.TextIO;
 
-public class S230_SrednjaVrednostMatrice_Resenje {
+public class S230_SrednjaVrednostMatrice_slajdovi {
 
 	public static void main(String[] args) {
 		

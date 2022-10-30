@@ -2,13 +2,13 @@ package s209_staticke_strukture_podataka;
 
 public class S232_Z5_ApsolutniNiz {
 
+	/*
+	 * Dat je niz A od maksimalno 40 celobrojnih elemenata. Uèitati n elemenata u
+	 * niz A i formirati niz X pri èemu su elementi niza X apsolutne vrednosti
+	 * negativnih elemenata niza A. Koristiti abs funkciju.
+	 */
+	
 	public static void main(String[] args) {
-		
-		/*
-		 * Dat je niz A od maksimalno 40 celobrojnih elemenata. Uèitati n elemenata u
-		 * niz A i formirati niz X pri èemu su elementi niza X apsolutne vrednosti
-		 * negativnih elemenata niza A. Koristiti abs funkciju.
-		 */
 		
 		int[] a = new int[40], x = new int[40];
 		for(int i = 0; i < a.length; i++)

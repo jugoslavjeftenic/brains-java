@@ -4,13 +4,13 @@ import alati.TextIO;
 
 public class S204_ForUgnjezdavanje_SadrziSlova {
 
+	/*
+	 * Primer programa koji preuzima jednu liniju teksta od korisnika i 
+	 * ispisuje koja se sve slova nalaze u tom tekstu i koliko ima ukupno razlièitih slova.
+	 */
+	
 	public static void main(String[] args) {
 
-		/*
-		 * Primer programa koji preuzima jednu liniju teksta od korisnika i 
-		 * ispisuje koja se sve slova nalaze u tom tekstu i koliko ima ukupno razlièitih slova.
-		 */
-		
 		String tekst;
 		int ukupnoSlova = 0;
 		

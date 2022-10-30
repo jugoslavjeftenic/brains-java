@@ -4,12 +4,12 @@ import alati.TextIO;
 
 public class S179_IfSelekcija_VeciBroj {
 
+	/*
+	 * Implementirati program koji ispisuje koji je od dva broja 
+	 * veæi (odrediti tipove podataka, potrebnu proveru, ...) 
+	 */
+	
 	public static void main(String[] args) {
-		
-		/*
-		 * Implementirati program koji ispisuje koji je od dva broja 
-		 * veæi (odrediti tipove podataka, potrebnu proveru, ...) 
-		 */
 		
 		int a, b;
 		

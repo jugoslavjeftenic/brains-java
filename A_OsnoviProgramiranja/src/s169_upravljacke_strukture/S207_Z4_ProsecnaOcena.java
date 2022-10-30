@@ -4,12 +4,12 @@ import alati.TextIO;
 
 public class S207_Z4_ProsecnaOcena {
 
+	/*
+	 * Napisati program koji odreðuje proseènu ocena studenta u toku jedne godine. 
+	 * Korisnik unosi ocene studenta (5..10) sve dok ne unese vrednost 0. 
+	 */
+	
 	public static void main(String[] args) {
-		
-		/*
-		 * Napisati program koji odreðuje proseènu ocena studenta u toku jedne godine. 
-		 * Korisnik unosi ocene studenta (5..10) sve dok ne unese vrednost 0. 
-		 */
 		
 		// Deklarišemo globalne promenljive
 		int predmet = 1, ocena, ocenaUkupno = 0;

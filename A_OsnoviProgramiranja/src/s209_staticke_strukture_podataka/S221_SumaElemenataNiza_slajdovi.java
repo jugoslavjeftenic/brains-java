@@ -2,15 +2,15 @@ package s209_staticke_strukture_podataka;
 
 import alati.TextIO;
 
-public class S221_SumaElemenataNiza_Resenje {
+public class S221_SumaElemenataNiza_slajdovi {
 
+	/*
+	 * Dodati proveru korektnosti unetih vrednosti.
+	 * Da li se može koristiti manji broj for iteracija? 
+	 */
+	
 	public static void main(String[] args) {
 
-		/*
-		 * Dodati proveru korektnosti unetih vrednosti.
-		 * Da li se može koristiti manji broj for iteracija? 
-		 */
-		
 		final int MAXELNIZA = 50;
 		int N = 1, i, suma = 0;
 		int NizPrirordnihBrojeva[] = new int[MAXELNIZA];

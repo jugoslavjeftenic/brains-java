@@ -1,14 +1,14 @@
 package s209_staticke_strukture_podataka;
 
-public class S232_Z2_ParNepar_Indeksi {
+public class S232_Z2_ParNepar_indeksi {
+
+	/*
+	 * Dat je niz X od maksimalno 10 realnih elemenata. Uèitati n elemenata u niz X
+	 * i formirati nizove A i B, pri èemu su elementi niza A elementi niza X sa
+	 * parnim indeksom, a elementi niza B su elementi niza X sa neparnim indeksom.
+	 */
 
 	public static void main(String[] args) {
-
-		/*
-		 * Dat je niz X od maksimalno 10 realnih elemenata. Uèitati n elemenata u niz X
-		 * i formirati nizove A i B, pri èemu su elementi niza A elementi niza X sa
-		 * parnim indeksom, a elementi niza B su elementi niza X sa neparnim indeksom.
-		 */
 
 		int[][] x = new int[3][10];
 		for (int i = 0; i < x[0].length; i++)

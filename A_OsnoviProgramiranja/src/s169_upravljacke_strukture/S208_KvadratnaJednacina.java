@@ -4,16 +4,16 @@ import alati.TextIO;
 
 public class S208_KvadratnaJednacina {
 
+	/*
+	 * Implementirati program za raèunanje rešenja (korena) kvadratne jednaèine.
+	 * Obezbediti sve obavezne provere ulaznih vrednosti.
+	 * Izraèunati sva moguæa rešenja u zavisnosti od ulaznih vrednosti koeficijenata a, b i c.
+	 * Nakon što se izraèuna i prikaže rešenje kvadratne jednaèine,
+	 * korisnika treba pitati da li želi da unese novu kvadratnu jednaèinu.
+	 */
+	    
 	public static void main(String[] args) {
 		
-		/*
-		 * Implementirati program za raèunanje rešenje (korena) kvadratne jednaèine.
-		 * Obezbediti sve obavezne provere ulaznih vrednosti.
-		 * Izraèunati sva moguæa rešenja u zavisnosti od ulaznih vrednosti koeficijenata a, b i c.
-		 * Nakon što se izraèuna i prikaže rešenje kvadratne jednaèine,
-		 * korisnika treba pitati da li želi da unese novu kvadratnu jednaèinu.
-		 */
-		    
 		boolean noviZadatak = false;
 		double a, b, c, d, sqrtD, x1, x2, y1, y2;
 		

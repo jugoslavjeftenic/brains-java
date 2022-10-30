@@ -1,4 +1,5 @@
 package s147_stringovi;
+
 public class S152_String_Zadaci {
 
 	public static void main(String[] args) {

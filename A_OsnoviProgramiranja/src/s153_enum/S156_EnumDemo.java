@@ -1,4 +1,5 @@
 package s153_enum;
+
 public class S156_EnumDemo {
 
 	enum Dan {PONEDELJAK, UTORAK, SREDA, CETVRTAK, PETAK, SUBOTA, NEDELJA}

@@ -4,20 +4,20 @@ import alati.TextIO;
 
 public class S207_Z1_ProsecanBrojStudenata {
 
+	/*
+	 * ZADATAK:
+	 * Napisati program koji odreðuje proseèan broj studenata na godini. 
+	 * Korisnik unosi studente po smerovima sve dok ne unese vrednost 0. 
+	 * Broj studenata na smeru je u intervalu 1..160. 
+	 */
+	
+	/*
+	 * REŠENJE:
+	 * Proseèan broj studenata na svim smerovima dobijamo tako što saberemo
+	 * ukupan broj studenata na svim smerovima i podelimo sa brojem smerova
+	 */
+	
 	public static void main(String[] args) {
-		
-		/*
-		 * ZADATAK:
-		 * Napisati program koji odreðuje proseèan broj studenata na godini. 
-		 * Korisnik unosi studente po smerovima sve dok ne unese vrednost 0. 
-		 * Broj studenata na smeru je u intervalu 1..160. 
-		 */
-		
-		/*
-		 * REŠENJE:
-		 * Proseèan broj studenata na svim smerovima dobijamo tako što saberemo
-		 * ukupan broj studenata na svim smerovima i podelimo sa brojem smerova
-		 */
 		
 		// Deklarišemo promenljivu za brojanje smerova i dodeljujemo vrednost 1
 		// pošto mora da bude najmanje jedan smer da bi se mogao uneti broj studenata

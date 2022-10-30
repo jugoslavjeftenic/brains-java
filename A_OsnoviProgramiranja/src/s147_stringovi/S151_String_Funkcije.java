@@ -1,4 +1,5 @@
 package s147_stringovi;
+
 public class S151_String_Funkcije {
 
 	public static void main(String[] args) {

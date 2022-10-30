@@ -1,6 +1,5 @@
 package s095_promenljive;
 
-
 public class S111_Z2_PotrosnjaGoriva {
 
 	public static void main(String[] args) {

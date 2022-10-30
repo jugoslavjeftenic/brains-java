@@ -4,20 +4,20 @@ import alati.TextIO;
 
 public class S229_Z2_SrednjaVrednostVrsteMatrice {
 
+	/*
+	 * Implementirati program za raèunanje srednje vrednosti elemenata matrice
+	 * prirodnih brojeva koji sadrži maksimum 10 vrsta i 20 kolona.
+	 * Program prihvata od korisnika broj vrsta i kolona i vrednost svakog 
+	 * pojedinaènog elementa. 
+	 */
+	
+	/*
+	 * Proširiti prethodni zadatak tako da raèuna sumu 
+	 * elemenata svake pojedinaène vrste. Korisniku se 
+	 * prikazuje par vrsta – suma njenih elemenata. 
+	 */
+	
 	public static void main(String[] args) {
-		
-		/*
-		 * Implementirati program za raèunanje srednje vrednosti elemenata matrice
-		 * prirodnih brojeva koji sadrži maksimum 10 vrsta i 20 kolona.
-		 * Program prihvata od korisnika broj vrsta i kolona i vrednost svakog 
-		 * pojedinaènog elementa. 
-		 */
-		
-		/*
-		 * Proširiti prethodni zadatak tako da raèuna sumu 
-		 * elemenata svake pojedinaène vrste. Korisniku se 
-		 * prikazuje par vrsta – suma njenih elemenata. 
-		 */
 		
 		int[][] matrica;
 		int[] sumaVrste;

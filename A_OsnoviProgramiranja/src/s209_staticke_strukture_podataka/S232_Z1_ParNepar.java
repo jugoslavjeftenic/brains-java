@@ -4,23 +4,23 @@ import alati.TextIO;
 
 public class S232_Z1_ParNepar {
 
+	/*
+	 * ZADATAK 1, strana232.
+	 * Dat je niz X od maksimalno 12 celobrojnih elemenata. Uèitati n 
+	 * elemenata u niz X i formirati nizove A i B, pri èemu su elementi niza A 
+	 * parni elementi niza X, a elementi niza B su neparni elementi niza X. 
+	 */
+	
+	/*
+	 * REŠENJE ZADATKA.
+	 * Zadatak je retroaktivno uraðen sa upotrebom matrica i podprograma.
+	 * Umesto niza X, A i B je upotrebljena matrica X.
+	 * Umesto da korisnik unosi vrednosti niza koristi se funkcija za nasumièno
+	 * generisanje vrednosti elemenata.
+	 */
+
 	public static void main(String[] args) {
 		
-		/*
-		 * ZADATAK 1, strana232.
-		 * Dat je niz X od maksimalno 12 celobrojnih elemenata. Uèitati n 
-		 * elemenata u niz X i formirati nizove A i B, pri èemu su elementi niza A 
-		 * parni elementi niza X, a elementi niza B su neparni elementi niza X. 
-		 */
-		
-		/*
-		 * REŠENJE ZADATKA.
-		 * Zadatak je retroaktivno uraðen sa upotrebom matrica i podprograma.
-		 * Umesto niza X, A i B je upotrebljena matrica X.
-		 * Umesto da korisnik unosi vrednosti niza koristi se funkcija za nasumièno
-		 * generisanje vrednosti elemenata.
-		 */
-
 		// Deklarišemo matricu X sa 3 vrste i pozivamo potprogram "duzinaNiza"
 		// za odreðivanje broja kolona matrice
 		int[][] x = new int[3][duzinaNiza()];

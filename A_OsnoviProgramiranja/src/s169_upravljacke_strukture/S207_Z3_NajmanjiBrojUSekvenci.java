@@ -4,17 +4,17 @@ import alati.TextIO;
 
 public class S207_Z3_NajmanjiBrojUSekvenci {
 
+	/*
+	 * Napisati program koji odreðuje koji je broj najmanji u sekvenci 
+	 * od N brojeva. Korisnik unosi N, a zatim brojeve (-10..100). 
+	 */
+	
+	/*
+	 * NAPOMENA. Pošto je ovaj zadatak postavljen pre lekcije o nizovima
+	 * ili nisam shvatio zadatak ili ne znam da gi rešim bez niza.
+	 */
+	
 	public static void main(String[] args) {
-		
-		/*
-		 * Napisati program koji odreðuje koji je broj najmanji u sekvenci 
-		 * od N brojeva. Korisnik unosi N, a zatim brojeve (-10..100). 
-		 */
-		
-		/*
-		 * NAPOMENA. Pošto je ovaj zadatak postavljen pre lekcije o nizovima
-		 * ili nisam shvatio zadatak ili ne znam da gi rešim bez niza.
-		 */
 		
 		// Od korisnika tražimo koliko brojeva ide u sekvencu.
 		System.out.println("Upišite dužinu sekvence (preporuèena dužina do 10 brojeva): ");

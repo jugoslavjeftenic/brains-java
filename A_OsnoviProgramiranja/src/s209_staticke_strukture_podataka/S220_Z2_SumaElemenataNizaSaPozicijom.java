@@ -4,23 +4,23 @@ import alati.TextIO;
 
 public class S220_Z2_SumaElemenataNizaSaPozicijom {
 
+	/*
+	 * Implementirati program za računanje sume vrednosti
+	 * elemenata niza prirodnih brojeva koji sadrži maksimum 50
+	 * elemenata. Program prihvata od korisnika broj elemenata
+	 * (0 < N ≤ 50) i vrednost svakog pojedinačnog elementa.
+	 */
+	
+	/*
+	 * Proširiti prethodni zadatak tako da računa poziciju
+	 * maksimalne vrednosti niza. Korisniku se prikazuje na
+	 * kojoj poziciji u nizu se nalazi maksimalna vrednost, kao i 
+	 * sama vrednost.
+	 * 
+	 * Šta ako ima više istih vrednosti koje su maksimalne?
+	 */
+	
 	public static void main(String[] args) {
-		
-		/*
-		 * Implementirati program za računanje sume vrednosti
-		 * elemenata niza prirodnih brojeva koji sadrži maksimum 50
-		 * elemenata. Program prihvata od korisnika broj elemenata
-		 * (0 < N ≤ 50) i vrednost svakog pojedinačnog elementa.
-		 */
-		
-		/*
-		 * Proširiti prethodni zadatak tako da računa poziciju
-		 * maksimalne vrednosti niza. Korisniku se prikazuje na
-		 * kojoj poziciji u nizu se nalazi maksimalna vrednost, kao i 
-		 * sama vrednost.
-		 * 
-		 * Šta ako ima više istih vrednosti koje su maksimalne?
-		 */
 		
 		int[] niz;
 		int n, suma = 0, maks = 0;

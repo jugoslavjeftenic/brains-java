@@ -4,13 +4,13 @@ import alati.TextIO;
 
 public class S207_Z2_DeljivoSa7 {
 
+	/*
+	 * Napisati program koji odreðuje ukupan broj brojeva deljivih sa 7. 
+	 * Korisnik unosi brojeve sve dok ne unese vrednost -1. 
+	 * Uneti broj mora biti u intervalu od 6..142.  
+	 */
+	
 	public static void main(String[] args) {
-		
-		/*
-		 * Napisati program koji odreðuje ukupan broj brojeva deljivih sa 7. 
-		 * Korisnik unosi brojeve sve dok ne unese vrednost -1. 
-		 * Uneti broj mora biti u intervalu od 6..142.  
-		 */
 		
 		// Na poèetku deklarišemo promenljivu koja æe nam trebati kroz ceo program.
 		int broj;

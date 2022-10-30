@@ -1,4 +1,5 @@
 package s157_komunikacija_sa_okolinom;
+
 import alati.TextIO;
 
 public class S167_Z6_Pritisak {
