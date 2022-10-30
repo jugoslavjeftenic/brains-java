@@ -88,7 +88,7 @@ public class S062_Z4_Vozilo {
 
 	/*
 	 * Realizovati prethodno implementirane klase (Student, Zaposleni, Racunar, Vozilo)
-	 * tako da pruze dobru enkapsulaciju podataka kroz uvoðenje pristupnih atributa i
+	 * tako da pruze dobru enkapsulaciju podataka kroz uvodjenje pristupnih atributa i
 	 * realizaciju pristupnih metoda (za postavljanje i pribavljanje vrednosti) za svaki od atributa.
 	 */
 	

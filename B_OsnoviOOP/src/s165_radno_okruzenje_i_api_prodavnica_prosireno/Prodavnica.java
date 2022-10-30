@@ -10,6 +10,8 @@ public abstract class Prodavnica {
 	
 	public abstract String[] uzmiInventar();
 	public abstract void kupiInventar(String artikal);
+	public abstract void otvoriLokal();
+	public abstract void pospremiLokal();
 
 	public SpisakKlijenata getSpisakKlijenata() {
 		return spisakKlijenata;

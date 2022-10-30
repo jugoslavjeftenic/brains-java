@@ -52,7 +52,7 @@ public class S062_Z3_Racunar {
 
 	/*
 	 * Realizovati prethodno implementirane klase (Student, Zaposleni, Racunar, Vozilo)
-	 * tako da pruze dobru enkapsulaciju podataka kroz uvoðenje pristupnih atributa i
+	 * tako da pruze dobru enkapsulaciju podataka kroz uvodjenje pristupnih atributa i
 	 * realizaciju pristupnih metoda (za postavljanje i pribavljanje vrednosti) za svaki od atributa.
 	 */
 	
@@ -108,7 +108,7 @@ public class S062_Z3_Racunar {
 			}
 		}
 		
-		System.out.println("Raèunari poslagani od najjaèeg ka najslabijem imaju sledeæe indekse performansi:");
+		System.out.println("Racunari poslagani od najjaceg ka najslabijem imaju sledece indekse performansi:");
 		for (int i = 0; i < performanse.length; i++) {
 			System.out.printf
 				("%d. Racunar %.0f indeks %.2f\n", i, performanse[i][0], performanse[i][1]);

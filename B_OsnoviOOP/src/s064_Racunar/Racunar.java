@@ -27,8 +27,7 @@ public class Racunar {
 	}
 	
 	public void stampajIndeksPerformansi() {
-		System.out.printf
-			("%s sa procesorom %s-%.2f MHz i memorijom kapaciteta %d KiB ima indeks performansi %.2f.\n",
+		System.out.printf("%s sa procesorom %s-%.2f MHz i memorijom kapaciteta %d KiB ima indeks performansi %.2f.\n",
 			 getImeRacunara(), getOznakaProcesora(), getRadniTakt(), getKapacitetMemorije(), indeksPerformansi());
 	}
 	

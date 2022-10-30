@@ -31,7 +31,7 @@ class StudentThis {
 	}
 }
 
-public class S041_Student_This {
+public class S041_Student_this {
 
 	public static void main(String[] args) {
 

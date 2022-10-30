@@ -5,38 +5,37 @@ import alati.RADE;
 public class Main {
 
 	/*
-	 * Napraviæemo apstraktnu klasu koja izdvaja odreðenu realizaciju i interfejs koji modeluje neka ponašanja
-	 * Cilj – radno okruženje kojim višekratno koristimo kod.
-	 * Svaka specifièna aplikacija biæe vezana samo ugovorom,
-	 * nema njenog strogog vezivanja za prilagoðene klase.
+	 * Napravicemo apstraktnu klasu koja izdvaja odredjenu realizaciju i interfejs koji modeluje neka ponasanja
+	 * Cilj – radno okruzenje kojim visekratno koristimo kod.
+	 * Svaka specifièna aplikacija bice vezana samo ugovorom, nema njenog strogog vezivanja za prilagodjene klase.
 	 * 
 	 * Sastoji se od:
-	 * - Interfejsa Imenovanje, modeluje ponašanja, deo ugovora,
+	 * - Interfejsa Imenovanje, modeluje ponasanja, deo ugovora,
 	 * - Apstraktne klase Prodavnica, izdvaja implementaciju, deo ugovora,
 	 * - Klase SpisakKlijenata, koju koristimo kroz spajanje i
-	 * - Nove realizacije klase Prodavnica za svakog klijenta kroz klase potomke koji je nasleðuju.
+	 * - Nove realizacije klase Prodavnica za svakog klijenta kroz klase potomke koji je nasledjuju.
 	 */
 	
 	/*
 	 * Zadatak: dopuniti apstraktnu klasu Prodavnica, interfejs Imenovanje, klasu SpisakKlijenata,
-	 * kao i izvedene klase Picerija i Poslasticarnica novim atributima i metodima i
-	 * proširiti implementacije postojeæih metoda, tako da se realizuju funkcionalnosti
-	 * koje bi se mogle zahtevati u svakodnevnom poslovanju.
+	 * kao i izvedene klase Picerija i Poslasticarnica novim atributima i metodima i prosiriti implementacije
+	 * postojecih metoda, tako da se realizuju funkcionalnosti koje bi se mogle zahtevati u svakodnevnom poslovanju.
 	 * 
-	 * Realizovati nove klase Restoran i Knjizara koje takoðe nasleðuju apstraktnu klasu
-	 * Prodavnica i implementiraju interfejs Imenovanje.
-	 * Klase testirati kreiranjem više objekata u glavnom programu i pozivanjem odgovarajuæih izabranih metoda.
+	 * Realizovati nove klase Restoran i Knjizara koje takodje nasledjuju apstraktnu klasu Prodavnica i
+	 * implementiraju interfejs Imenovanje.
+	 * 
+	 * Klase testirati kreiranjem vise objekata u glavnom programu i pozivanjem odgovarajucih izabranih metoda.
 	 */
 	
 	public static void main(String[] args) {
 
-		Poslasticarnica slasticarnica = new Poslasticarnica();
+		Poslasticarnica poslasticarnica = new Poslasticarnica();
 		Picerija picerija = new Picerija();
 		
-		slasticarnica.postaviIme("Jugoslavija");
-		picerija.postaviIme("Bella");
+		poslasticarnica.setIme("Jugoslavija");
+		picerija.setIme("Bella");
 		
-		slasticarnica.kupiInventar("Sladoljed");
+		poslasticarnica.kupiInventar("Sladoljed");
 		picerija.kupiInventar("Pica");
 		
 		System.out.println();
@@ -44,7 +43,6 @@ public class Main {
 		for (int i = 1; i < 12; i++)
 			sk1.dodajKlijenta(RADE.generisiIme(0));
 		
-		slasticarnica.setSpisakKlijenata(sk1);
-		
+		poslasticarnica.setSpisakKlijenata(sk1);
 	}
 }

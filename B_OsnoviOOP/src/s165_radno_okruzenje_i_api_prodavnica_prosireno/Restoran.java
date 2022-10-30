@@ -1,9 +1,9 @@
 package s165_radno_okruzenje_i_api_prodavnica_prosireno;
 
-public class Picerija extends Prodavnica implements Imenovanje {
+public class Restoran extends Prodavnica implements Imenovanje {
 
 	private String imeKompanije, imeMenadzera;
-	private String[] ponudaHrane = {"Pica", "Pasta", "Salata", "Kalcona", "Sok", "Pivo"};
+	private String[] jelovnik = {"Becka snicla", "Karadjordjeva snicla", "Hosenfefer sos", "Pomfriti", "Salata"};
 	private boolean otvoren, pospremljen;
 	
 	@Override
@@ -28,14 +28,14 @@ public class Picerija extends Prodavnica implements Imenovanje {
 
 	@Override
 	public String[] uzmiInventar() {
-		return ponudaHrane;
+		return jelovnik;
 	}
 	
 	@Override
 	public void kupiInventar(String artikal) {
 		System.out.println("\nUpravo ste narucili artikal: " + artikal + ".");
 	}
-
+	
 	@Override
 	public void otvoriLokal() {
 		if (!otvoren) {

@@ -14,7 +14,6 @@ public abstract class Oblik {
 	}
 	
 	public abstract double izracunajPovrsinu();
-	
 	public abstract double izracunajObim();
 
 	public void ispisiPodatke() {

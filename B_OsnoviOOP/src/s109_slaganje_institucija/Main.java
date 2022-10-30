@@ -8,10 +8,10 @@ public class Main {
 	 * Osmisliti, nacrtati dijagrame klasa i realizovati u Javi klase
 	 * Institucija, Ucionica, Zaposleni (koja nasleðuje klasu Osoba) i Racunar
 	 * koje bi se mogle koristiti u programu za evidenciju zaposlenih i inventara neke obrazovne institucije.
-	 * Spiskove ucionica, zaposlenih i racunara po ucionicama cuvati u odgovarajuæim nizovima
-	 * (svaki sa najviše 20 clanova).
+	 * Spiskove ucionica, zaposlenih i racunara po ucionicama cuvati u odgovarajucim nizovima
+	 * (svaki sa najvise 20 clanova).
 	 * 
-	 * U kojim meðusobnim odnosima se nalaze pomenute klase (nasleðivanje, asocijacija, agregacija, kompozicija)?
+	 * U kojim medjusobnim odnosima se nalaze pomenute klase (nasledjivanje, asocijacija, agregacija, kompozicija)?
 	 * 
 	 * Klase testirati kreiranjem objekata u glavnom programu i pozivanjem izabranih metoda.
 	 * Nacrtati UML dijagram klasa resenja.

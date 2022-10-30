@@ -71,7 +71,7 @@ public class S063_Z1_Klijent {
 
 	/*
 	 * Osmisliti, nacrtati dijagram klase i realizovati u Javi klasu Klijent za
-	 * èuvanje i rad sa podacima o klijentima neke banke. Koje atribute bi trebalo
+	 * cuvanje i rad sa podacima o klijentima neke banke. Koje atribute bi trebalo
 	 * posmatrati? Koje osnovne metode bi trebalo implementirati?
 	 */
 

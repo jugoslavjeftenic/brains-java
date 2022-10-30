@@ -8,8 +8,8 @@ public class Main {
 	 * Realizovati klasu Oblik sa atributima boja (String), tip (String), brojStrana (int),
 	 * standardnim konstruktorom i konstruktorom koji postavlja inicijalne vrednosti,
 	 * kao i metodama za promenu boje oblika i stampanje podataka o obliku.
-	 * Realizovati klase Kvadrat (dodatni atribut duzinaStranice tipa double) i
-	 * Krug (dodatni atribut poluprecnik tipa double) koje nasledjuju klasu Oblik i
+	 * Realizovati klase Kvadrat (dodatni atribut duzinaStranice tipa double) i Krug
+	 * (dodatni atribut poluprecnik tipa double) koje nasledjuju klasu Oblik i
 	 * implementiraju metode za racunanje povrsine i obima.
 	 * 
 	 * Klase testirati kreiranjem vise objekata u glavnom programu i pozivanjem metoda za

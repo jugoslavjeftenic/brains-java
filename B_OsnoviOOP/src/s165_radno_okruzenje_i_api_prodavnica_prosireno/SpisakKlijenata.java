@@ -5,8 +5,6 @@ public class SpisakKlijenata {
 	private String[] ime;
 	private int trenutniBrojKlijenata, maksBrojKlijenata;
 	
-	public SpisakKlijenata() {}
-
 	public SpisakKlijenata(int maksBrojKlijenata) {
 		this.maksBrojKlijenata = maksBrojKlijenata;
 		this.trenutniBrojKlijenata = 0;

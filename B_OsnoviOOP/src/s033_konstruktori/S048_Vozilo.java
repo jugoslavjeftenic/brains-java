@@ -76,16 +76,13 @@ public class S048_Vozilo {
 		System.out.println("------------------------------------");
 		
 		System.out.println("Poredjenje cena vozila:");
-		System.out.printf
-			("Vozilo %s %s je %s od vozila %s %s.\n",
+		System.out.printf("Vozilo %s %s je %s od vozila %s %s.\n",
 			 fica.marka, fica.tip, (fica.uporediCenu(stojadin.izracunajCenu())) ? "skuplje" : "jeftinije",
 			 stojadin.marka, stojadin.tip);
-		System.out.printf
-			("Vozilo %s %s je %s od vozila %s %s.\n",
+		System.out.printf("Vozilo %s %s je %s od vozila %s %s.\n",
 			 fica.marka, fica.tip, (fica.uporediCenu(lada.izracunajCenu())) ? "skuplje" : "jeftinije",
 			 lada.marka, lada.tip);
-		System.out.printf
-			("Vozilo %s %s je %s od vozila %s %s.\n",
+		System.out.printf("Vozilo %s %s je %s od vozila %s %s.\n",
 			 lada.marka, lada.tip, (lada.uporediCenu(stojadin.izracunajCenu())) ? "skuplje" : "jeftinije",
 			 stojadin.marka, stojadin.tip);
 	}
