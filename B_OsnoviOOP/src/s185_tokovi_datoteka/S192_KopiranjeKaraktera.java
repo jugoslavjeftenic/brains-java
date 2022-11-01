@@ -1,18 +1,18 @@
 package s185_tokovi_datoteka;
 
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
+import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 
-public class s190_BajtTok {
+public class S192_KopiranjeKaraktera {
 
 	public static void main(String[] args) throws IOException {
 		
-		FileInputStream ulaz = null;
-		FileOutputStream izlaz = null;
+		FileReader ulaz = null;
+		FileWriter izlaz = null;
 		try {
-			ulaz = new FileInputStream("s185_tokovi_datoteka/ulazBajt.txt");
-			izlaz = new FileOutputStream("s185_tokovi_datoteka/izlazBajt.txt");
+			ulaz = new FileReader("src/s185_tokovi_datoteka/ulazKarakter.txt");
+			izlaz = new FileWriter("src/s185_tokovi_datoteka/izlazKarakter.txt");
 			int c;
 			while ((c = ulaz.read()) != -1) {
 				izlaz.write(c);

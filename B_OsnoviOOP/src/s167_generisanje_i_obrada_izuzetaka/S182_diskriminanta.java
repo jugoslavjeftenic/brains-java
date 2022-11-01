@@ -1,6 +1,6 @@
 package s167_generisanje_i_obrada_izuzetaka;
 
-public class s182_diskriminanta {
+public class S182_diskriminanta {
 	
 	/*
 	 * Vraca veci od dva korena kvadratne jednacine A*x*x + B*x + C = 0, ako ona ima korena.

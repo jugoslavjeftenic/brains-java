@@ -1,6 +1,6 @@
 package s167_generisanje_i_obrada_izuzetaka;
 
-public class s173_determinanta {
+public class S173_determinanta {
 
 	public static void main(String[] args) {
 		

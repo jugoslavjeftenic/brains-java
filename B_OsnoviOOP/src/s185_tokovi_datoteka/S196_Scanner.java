@@ -2,7 +2,7 @@ package s185_tokovi_datoteka;
 
 import java.util.Scanner;
 
-public class s196_skener {
+public class S196_Scanner {
 
 	public static void main(String[] args) {
 		
@@ -13,10 +13,7 @@ public class s196_skener {
 		String ime = sc.next();
 		System.out.println("Unesite Vasu platu: ");
 		double plata = sc.nextDouble();
-		System.out.println("JMBG:" + jmbg + " Ime:" + ime +
-
-		" Plata:" + plata);
-
+		System.out.println("JMBG:" + jmbg + " Ime:" + ime +	" Plata:" + plata);
 		sc.close();
 	}
 }
