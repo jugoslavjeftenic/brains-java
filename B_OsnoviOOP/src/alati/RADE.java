@@ -9,6 +9,8 @@ public class RADE {
 	 * by pvtBomba
 	 */
 	
+	private RADE() {}
+	
 	public static String generisiJMBG() {
 		String JMBG = "";
 		switch (mrRobot(1, 12)) {
@@ -73,9 +75,9 @@ public class RADE {
 
 		switch (rod) {
 		case 1:
-			return imenaZenska[mrRobot(0, imenaZenska.length)];
+			return imenaZenska[mrRobot(0, imenaZenska.length - 1)];
 		case 2:
-			return imenaMuska[mrRobot(0, imenaMuska.length)];
+			return imenaMuska[mrRobot(0, imenaMuska.length - 1)];
 		default:
 			String[] imena = new String[imenaZenska.length + imenaMuska.length];
 			int i = 0, j = 0;
@@ -88,33 +90,33 @@ public class RADE {
 				i++;
 				j++;
 			}
-			return imena[mrRobot(0, imena.length)];
+			return imena[mrRobot(0, imena.length - 1)];
 		}
 	}
 
 	public static String generisiPrezime() {
 		String[] prezimena = {"Markovic", "Kraljevic", "Petrovic", "Ivanovic", "Sretenovic", "Jovanovic", "Djordjevic", "Nikolic", "Popadic", "Stojanovic"};
-		return prezimena[mrRobot(0, prezimena.length)];
+		return prezimena[mrRobot(0, prezimena.length - 1)];
 	}
 	
 	public static String generisiGrad() {
 		String[] gradovi = {"Beograd", "Novi Sad", "Nis", "Pristina", "Pristina", "Kragujevac", "Subotica",
 				"Leskovac", "Krusevac", "Kraljevo", "Zrenjanin", "Pancevo", "Cacak", "Sabac", "Novi Pazar"};
-		return gradovi[mrRobot(0, gradovi.length)];
+		return gradovi[mrRobot(0, gradovi.length - 1)];
 	}
 	
 	public static String generisiUlicu() {
 		String[] ulice = {"Programerska", "Juniorski kraj", "Bulevar Regrutera", "Eklipse", "Palata Seniora"};
-		return ulice[mrRobot(0, ulice.length)];
+		return ulice[mrRobot(0, ulice.length - 1)];
 	}
 	
 	public static String generisiBrojUlice() {
-		String[] brojUlice = {"bb.", String.valueOf(mrRobot(1, 200)),
-			String.valueOf(mrRobot(1, 100)) + Character.toString((char) (mrRobot(97, 103)))};
-		return brojUlice[mrRobot(0, brojUlice.length)];
+		String[] brojUlice = {"bb.", String.valueOf(mrRobot(1, 200)), String.valueOf(mrRobot(1, 100)) + Character.toString((char) (mrRobot(97, 103)))};
+		return brojUlice[mrRobot(0, brojUlice.length - 1)];
 	}
 	
-	/** @param rod 1-akademska karijera */
+	/** @param zanimanje 1-akademska karijera */
+	/** @param zanimanje 9-neakademska zanimanja */
 	public static String generisiZanimanje(int karijera) {
 		
 		String[] boranija = {"higijenicar", "lozac", "portir", "operater", "sekretar", "IT tehnicar"};
@@ -122,27 +124,40 @@ public class RADE {
 
 		switch (karijera) {
 		case 1:
-			return akademskaKarijera[mrRobot(0, akademskaKarijera.length)];
+			return akademskaKarijera[mrRobot(0, akademskaKarijera.length - 1)];
+		case 9:
+			return boranija[mrRobot(0, boranija.length - 1)];
 		default:
-			return boranija[mrRobot(0, boranija.length)];
+			String[] zanimanja = new String[boranija.length + akademskaKarijera.length];
+			int i = 0, j = 0;
+			while (i < boranija.length) {
+				zanimanja[i] = boranija[i];
+				i++;
+			}
+			while (i < boranija.length + akademskaKarijera.length) {
+				zanimanja[i] = akademskaKarijera[j];
+				i++;
+				j++;
+			}
+			return zanimanja[mrRobot(0, zanimanja.length - 1)];
 		}
 	}
 
 	public static String generisiBoju() {
 		String[] boja = {"Crvena", "Zelena", "Zuta", "Ljubicasta", "Narandzasta", "Roze", "Bela", "Crna", "Cijan", "Plava"};
-		return boja[mrRobot(0, boja.length)];
+		return boja[mrRobot(0, boja.length - 1)];
 	}
 	
 	public static String generisiTim() {
 		String[] tim = {"Sokoli", "Orlovi", "Vrabci", "Tigrovi", "Vukovi", "Gavrani", "Pobednici", "Bednici", "Lavovi", "Alkoholicari", "Nindze"};
-		return tim[mrRobot(0, tim.length)];
+		return tim[mrRobot(0, tim.length - 1)];
 	}
 	
 	public static int mrRobot(int min, int max) {
-		return (int) ((Math.random() * (max - min)) + min);
+		return (int) ((Math.random() * (max - min + 1)) + min);
 	}
 	
 	public static double mrRobot(double min, double max) {
-		return ((Math.random() * (max - min)) + min);
+		return ((Math.random() * (max - min + 1)) + min);
 	}
 }
