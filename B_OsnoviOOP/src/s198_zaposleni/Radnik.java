@@ -15,16 +15,21 @@ public abstract class Radnik {
 	 * izraèunavanje plate radnika.
 	 */
 	
-	protected String ime, prezime, jmbg, racun, ss;
+	protected String ime, prezime, jmbg, racun;
+	protected double qss;
 	
 	public Radnik() {}
 	
-	public Radnik(String ime, String prezime, String jmbg, String racun, String ss) {
+	public Radnik(String ime, String prezime, String jmbg, String racun, double qss) {
 		this.ime = ime;
 		this.prezime = prezime;
 		this.jmbg = jmbg;
 		this.racun = racun;
-		this.ss = ss;
+		this.qss = qss;
+	}
+	
+	public void ucitajPodatke() {
+		
 	}
 
 //	public void ucitajPodatke() throws IOException {
@@ -79,12 +84,12 @@ public abstract class Radnik {
 		this.racun = racun;
 	}
 
-	public String getSs() {
-		return ss;
+	public double getQss() {
+		return qss;
 	}
 
-	public void setSs(String ss) {
-		this.ss = ss;
+	public void setQss(double qss) {
+		this.qss = qss;
 	}
 
 	public abstract void izracunajPlatu();

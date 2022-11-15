@@ -1,8 +1,9 @@
 package s198_zaposleni;
 
 import java.io.BufferedWriter;
-import java.io.FileWriter;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.OutputStreamWriter;
 
 import alati.RADE;
 
@@ -11,10 +12,13 @@ public class GenerisiSpisak {
 	private GenerisiSpisak() {}
 
 	protected static void generisiSpisak(String filePath, double cenaRada, int brojRadnika) {
+		
 		String linija = "";
+		OutputStreamWriter writer = null;
         BufferedWriter bw = null;
 		try {
-            bw = new BufferedWriter(new FileWriter(filePath + "spisak.txt"));
+			writer = new OutputStreamWriter(new FileOutputStream(filePath + "spisak.txt"), "UTF-8");
+			bw = new BufferedWriter(writer);
             linija = cenaRada + ";" + brojRadnika;
             bw.write(linija);
             for (int i = 0; i < brojRadnika; i++) {
@@ -23,7 +27,7 @@ public class GenerisiSpisak {
             	linija += RADE.mrRobot(0, 5) > 0 ? "+" : "-";
             	linija += ";" + RADE.generisiIme(0) + ";" + RADE.generisiPrezime();
             	linija += ";" + RADE.generisiJMBG() + String.format(";320-9876543%2d-73", i).replace(" ", "0");
-            	linija += ";" + String.format("%.2f", RADE.mrRobot(0.1, 10.0)) ;
+            	linija += ";" + String.format("%.2f", RADE.mrRobot(1.0, 10.0)) ;
                 bw.write(linija);
             }
         }
