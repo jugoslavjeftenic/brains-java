@@ -7,14 +7,6 @@ import java.io.IOException;
 import alati.RADE;
 
 public class GenerisiSpisak {
-	/*
-	 * U ulaznoj datoteci zapisana je najpre cena rada, zatim broj radnika u
-	 * preduzecu, a zatim slede podaci o svim radnicima. Podaci o jednom radniku
-	 * pocinju linijom u kojoj je zapisan simbol + ili -. Simbol + oznacava da slede
-	 * podaci o aktivnom radniku, a – da slede podaci o radniku koji se trenutno
-	 * nalazi na bolovanju. Platni spisak ispisati u izlaznu datoteku plate.txt.
-	 * ime radnika, prezime radnika, JMBG, broj tekuceg racuna i koeficijent strucne spreme,
-	 */
 	
 	private GenerisiSpisak() {}
 

@@ -30,6 +30,7 @@ public class Main {
 	public static void main(String[] args) {
 
 		String filePath = "src/s198_zaposleni/";
-		GenerisiSpisak.generisiSpisak(filePath, 10000, 10);
+//		GenerisiSpisak.generisiSpisak(filePath, 10000, 10);
+		
 	}
 }
