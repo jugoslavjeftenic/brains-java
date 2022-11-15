@@ -1,8 +1,11 @@
 package s198_zaposleni;
 
-import java.io.FileReader;
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.Scanner;
+import java.io.InputStreamReader;
+import java.io.UnsupportedEncodingException;
 
 public abstract class Radnik {
 
@@ -28,30 +31,38 @@ public abstract class Radnik {
 		this.qss = qss;
 	}
 	
-	public void ucitajPodatke() {
-		
+	public void ucitajPodatke(String filePath) {
+		String line = "";
+		InputStreamReader reader = null;
+		BufferedReader br = null;
+		try {
+			reader = new InputStreamReader(new FileInputStream(filePath + "spisak.txt"), "UTF-8");
+			br = new BufferedReader(reader);
+			while ((line = br.readLine()) != null) {
+				
+			}
+			
+		} catch (UnsupportedEncodingException e) {
+			System.out.println("PAZNJA! Doslo je do greske prilikom enkodovanja karaktera u UTF-8 format.");
+			e.printStackTrace();
+		} catch (FileNotFoundException e) {
+			System.out.println("PAZNJA! Datoteka \"" + filePath + "spisak.txt\" nije pronadjena.");
+			e.printStackTrace();
+		} catch (IOException e) {
+			System.out.println("PAZNJA! Doslo je do nepoznate IO greske prilikom citanja datoteke \"" + filePath + "spisak.txt\"");
+			e.printStackTrace();
+		}
+		finally {
+			if (br != null) {
+				try {
+					br.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+		}
 	}
 
-//	public void ucitajPodatke() throws IOException {
-//		FileReader ulaz = null;
-//		try {
-//			ulaz = new FileReader("radnici.txt");
-//			Scanner s = new Scanner(new FileReader("radnici.txt")).useDelimiter("\\s");
-//			int c;
-//			while ((c = s.next) != -1) {
-//				izlaz.write(c);
-//			}
-//		}
-//		catch (IOException e) {
-//			System.out.println(e.getMessage());
-//		}
-//		finally {
-//			if (ulaz != null) {
-//				ulaz.close();
-//			}
-//		}
-//	}
-	
 	public String getIme() {
 		return ime;
 	}
