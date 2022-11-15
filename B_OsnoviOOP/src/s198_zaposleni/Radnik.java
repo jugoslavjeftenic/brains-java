@@ -41,7 +41,6 @@ public abstract class Radnik {
 			while ((line = br.readLine()) != null) {
 				
 			}
-			
 		} catch (UnsupportedEncodingException e) {
 			System.out.println("PAZNJA! Doslo je do greske prilikom enkodovanja karaktera u UTF-8 format.");
 			e.printStackTrace();

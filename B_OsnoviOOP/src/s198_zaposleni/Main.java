@@ -31,6 +31,7 @@ public class Main {
 
 		String filePath = "src/s198_zaposleni/";
 //		GenerisiSpisak.generisiSpisak(filePath, 10000, 10);
-		
+		SpisakRadnika radnici = new SpisakRadnika(filePath);
+		radnici.ucitajPodatke();
 	}
 }
