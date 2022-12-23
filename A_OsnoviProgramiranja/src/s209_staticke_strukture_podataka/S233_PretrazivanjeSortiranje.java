@@ -60,7 +60,7 @@ public class S233_PretrazivanjeSortiranje {
 		System.out.println();
 		System.out.println();
 		
-		// 4. maksimalni element niz
+		// 4. maksimalni element niza
 		System.out.println("4. maksimalni element niz");
 		int max = niz[0];
 		for (int i = 1; i < niz.length; i++)
